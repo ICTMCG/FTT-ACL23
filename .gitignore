@@ -1,0 +1,8 @@
+__pycache__
+.vscode
+param_model/*
+seasonal_logs/*
+logs/json
+logs/test
+logs/seasonal_res_compare.csv
+reweight_roll_season/roll_seasonal_user_data/*
