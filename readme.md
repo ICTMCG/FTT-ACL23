@@ -6,11 +6,11 @@ Official repository for **[Learn over Past, Evolve for Future: Forecasting Tempo
 
 ## Introduction
 
-The proposed FTT is a model-agnostic framework, which could tackle temporal generalization issue by adjusting the training data distribution to be closer to future data distribution.
+The proposed FTT is a model-agnostic framework, which could tackle the temporal generalization issue by adjusting the training data distribution to be closer to future data distribution.
 
 ## Dataset
 
-Due to commercial restriction, we cannot release the complete dataset. We have placed 500 samples at `roll_seasonal_data/roll_online_bf20_demo`  so you can complete the whole training process. You can create your own dataset following the samples format.
+Due to commercial restrictions, we cannot release the complete dataset. We have placed 500 samples at `roll_seasonal_data/roll_online_bf20_demo`  so you can complete the whole training process. You can create your own dataset following the sample format.
 
 ## Code
 
@@ -19,7 +19,7 @@ Due to commercial restriction, we cannot release the complete dataset. We have p
 ```bash
 .
 ├── grid_search.py
-├── logs  # results here
+├── logs  # results save here
 │   └── seaonal_res_analyse.ipynb
 ├── main.py
 ├── models
@@ -48,7 +48,7 @@ Refer to requirements.txt
 
 You can run `pip install -r requirements.txt` to deploy the environment quickly.
 
-### Pretrained Moddels
+### Pretrained Models
 
 You can download pretrained models ([sentence-roberta-wwm-ext](https://huggingface.co/imxly/sentence_roberta_wwm_ext) and [chinese-bert-wwm-ext](https://huggingface.co/hfl/chinese-bert-wwm-ext)) and change paths (`sentence_transformer_path` and `bert_path`) in the corresponding scripts.
 
@@ -77,7 +77,7 @@ Parameter Configuration:
 
 - max_len: the max length of a sample, default for `170`
 - early_stop: default for `5`
-- epoch: training epoches, default for `50`
+- epoch: training epochs, default for `50`
 - gpu: the index of gpu you will use, default for `0`
 - lr: learning_rate, default for `2e-5`
 - model_name: model_name within `bert, eann_bert`
