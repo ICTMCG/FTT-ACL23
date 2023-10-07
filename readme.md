@@ -54,7 +54,7 @@ You can download pretrained models ([sentence-roberta-wwm-ext](https://huggingfa
 
 ### Run
 
-The experiment consists of two steps. In Step 1, adjusted training data is generated using the FTT method. In Step 2, the detection model is trained based on the adjusted training data.**
+The experiment consists of two steps. In Step 1, adjusted training data is generated using the FTT method. In Step 2, the detection model is trained based on the adjusted training data.
 
 #### Step 1: Generate Adjusted Training Data Using FTT
 
