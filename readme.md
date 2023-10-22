@@ -84,8 +84,11 @@ Parameter Configuration:
 - root_path: the path to the adjusted data
 - data_name: the name set for the adjusted data, which will determine the name of the experimental results
 
-## Citation
-
+## How To Cite
+```
+Beizhe Hu, Qiang Sheng, Juan Cao, Yongchun Zhu, Danding Wang, Zhengjia Wang, and Zhiwei Jin. 2023. Learn over Past, Evolve for Future: Forecasting Temporal Trends for Fake News Detection. In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 5: Industry Track), pages 116–125, Toronto, Canada. Association for Computational Linguistics.
+```
+or
 ```
 @inproceedings{hu-etal-2023-learn,
     title = "Learn over Past, Evolve for Future: Forecasting Temporal Trends for Fake News Detection",
